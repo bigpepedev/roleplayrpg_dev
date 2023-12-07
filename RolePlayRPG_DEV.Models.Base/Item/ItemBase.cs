@@ -1,4 +1,5 @@
-﻿using RolePlayRPG_DEV.Models.Base.Sprite.Item;
+﻿using RolePlayRPG_DEV.Models.Base.General.Enum;
+using RolePlayRPG_DEV.Models.Base.Sprite.Item;
 
 namespace RolePlayRPG_DEV.Models.Base.Item
 {
@@ -6,12 +7,7 @@ namespace RolePlayRPG_DEV.Models.Base.Item
     /// Modelo de los item
     /// </summary>
     public class ItemBase
-    {
-        /// <summary>
-        /// Identificador
-        /// </summary>
-        public int Id { get; set; }
-
+    {        
         /// <summary>
         /// Nombre
         /// </summary>
@@ -28,9 +24,19 @@ namespace RolePlayRPG_DEV.Models.Base.Item
         public ItemBaseTypeEnum Type { get; set; }
 
         /// <summary>
+        /// Efecto del item
+        /// </summary>
+        public ItemBaseEffectEnum Effect { get; set; }
+
+        /// <summary>
+        /// Calidad del item
+        /// </summary>
+        public QualityEnum Quality { get; set; }
+
+        /// <summary>
         /// Valor que se aplica a los items en sus respectivos usos
         /// </summary>
-        public int DefaultValue { get; set; }
+        public int Value { get; set; }
 
         /// <summary>
         /// Lista de imagenes asociadas al item

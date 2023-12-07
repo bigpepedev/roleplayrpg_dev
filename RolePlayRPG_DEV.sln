@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayRPG_DEV.Models.Base", "RolePlayRPG_DEV.Models.Base\RolePlayRPG_DEV.Models.Base.csproj", "{C270568C-4C48-4A67-923E-05B017298AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RolePlayRPG_DEV.Models.Base", "RolePlayRPG_DEV.Models.Base\RolePlayRPG_DEV.Models.Base.csproj", "{C270568C-4C48-4A67-923E-05B017298AA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RolePlayRPG_DEV.Test", "RolePlayRPG_DEV.Test", "{77921D36-01E6-4C83-9D6B-151A959FFA4D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RolePlayRPG_DEV.App", "RolePlayRPG_DEV.App", "{1E4D3803-5EA5-4472-9232-DF8A5A12160A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayRPG_DEV.Application.Model.Base.Test", "RolePlayRPG_DEV.Application.Model.Base.Test\RolePlayRPG_DEV.Application.Model.Base.Test.csproj", "{EB58EE38-F674-406B-BC7D-135063655E74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RolePlayRPG_DEV.Application.Model.Base.Test", "RolePlayRPG_DEV.Application.Model.Base.Test\RolePlayRPG_DEV.Application.Model.Base.Test.csproj", "{EB58EE38-F674-406B-BC7D-135063655E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayRPG_DEV.Models.App", "RolePlayRPG_DEV.Models.App\RolePlayRPG_DEV.Models.App.csproj", "{2A1C8039-856C-4212-902C-A7E626FCC805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RolePlayRPG_DEV.Models.App", "RolePlayRPG_DEV.Models.App\RolePlayRPG_DEV.Models.App.csproj", "{2A1C8039-856C-4212-902C-A7E626FCC805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayRPG_DEV.Models.App.Test", "RolePlayRPG_DEV.Models.App.Test\RolePlayRPG_DEV.Models.App.Test.csproj", "{82EF091D-32BE-4639-A75F-1DC536BF46B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{2A1C8039-856C-4212-902C-A7E626FCC805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A1C8039-856C-4212-902C-A7E626FCC805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A1C8039-856C-4212-902C-A7E626FCC805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EF091D-32BE-4639-A75F-1DC536BF46B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EF091D-32BE-4639-A75F-1DC536BF46B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EF091D-32BE-4639-A75F-1DC536BF46B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EF091D-32BE-4639-A75F-1DC536BF46B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{C270568C-4C48-4A67-923E-05B017298AA2} = {1E4D3803-5EA5-4472-9232-DF8A5A12160A}
 		{EB58EE38-F674-406B-BC7D-135063655E74} = {77921D36-01E6-4C83-9D6B-151A959FFA4D}
 		{2A1C8039-856C-4212-902C-A7E626FCC805} = {1E4D3803-5EA5-4472-9232-DF8A5A12160A}
+		{82EF091D-32BE-4639-A75F-1DC536BF46B8} = {77921D36-01E6-4C83-9D6B-151A959FFA4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85460A97-DA8A-4622-A277-ADA15A9B82FD}
