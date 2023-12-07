@@ -4,7 +4,7 @@ using RolePlayRPG_DEV.Models.Base.General.Enum;
 
 namespace RolePlayRPG_DEV.Models.App.Test.Items.Default
 {
-    public class GuardItemTest
+    public class SpeedItemTest
     {
         /// <summary>
         /// Comprueba que un item de tipo defensa y calidad LOW tiene el valor 5
@@ -15,10 +15,10 @@ namespace RolePlayRPG_DEV.Models.App.Test.Items.Default
         [InlineData(QualityEnum.RARE, 15)]
         [InlineData(QualityEnum.EPIC, 25)]
         [InlineData(QualityEnum.LEGEND, 50)]
-        public void GuardItem_LOW_ValueShouldBeEquivalentAsQuality(QualityEnum quality, int result)
+        public void SpeedItem_LOW_ValueShouldBeEquivalentAsQuality(QualityEnum quality, int result)
         {
             //Arrange
-            var item = new GuardItem(quality);
+            var item = new SpeedItem(quality);
             //Act
             //Assert
             item.Value.Should().Be(result);
